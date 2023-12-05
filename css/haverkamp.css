@@ -468,17 +468,17 @@ ul {
   transform: rotate(45deg);
 }
 
-.services .content:hover {
+.services .box:hover .content {
   background-color: var(--main-color);
   color: var(--text-color);
 }
 
-.services .content:hover a {
+.services .box:hover a {
   color: var(--text-color);
 }
 
 
-.services .content:hover i {
+.services .box:hover i {
   color: var(--text-color);
   transform: rotate(0deg);
 }
