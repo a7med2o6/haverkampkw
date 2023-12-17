@@ -463,11 +463,6 @@ ul {
   border: 2px solid var(--main-color);
 }
 
-.services .content i {
-  color: var(--main-color);
-  transform: rotate(45deg);
-}
-
 .services .box:hover .content {
   background-color: var(--main-color);
   color: var(--text-color);
@@ -475,12 +470,6 @@ ul {
 
 .services .box:hover a {
   color: var(--text-color);
-}
-
-
-.services .box:hover i {
-  color: var(--text-color);
-  transform: rotate(0deg);
 }
 
 .services .box .info {
@@ -634,6 +623,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 40px;
+  padding: 20px;
 }
 
 .footer .box h3 {
@@ -760,19 +750,22 @@ ul {
   border-radius: 8px;
 }
 
-.footer .copyright {
-  padding: 25px 0;
-  text-align: center;
-  color: white;
-  margin: 50px 0 0;
+.designer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--main-color);
   border-top: 1px solid whitesmoke;
+  padding-top: 20px;
 }
 
-.social-a7med i {
-  margin-right: 10px;
+.designer p {
+  color: var(--text-color);
+  margin: 10px;
 }
 
-.social-a7med {
+.designer .social-a7med {
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -781,12 +774,12 @@ ul {
   transition: var(--main-transition);
 }
 
-.social-a7med i {
+.designer .social-a7med i {
   font-size: 25px;
   transition: var(--main-transition);
 }
 
-.social-a7med li a {
+.designer .social-a7med li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1754,3 +1747,26 @@ ul {
 
 /* End our-skills */
 /* end tint-page */
+/* start polish-page */
+.landing-polish img {
+  position: relative;
+}
+
+.landing-polish img {
+  width: 100%;
+  height: 50%;
+}
+
+.landing-polish .polish-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color);
+  padding: 10px;
+  background-color: hwb(211 5% 58% / 0.7);
+}
+
+/* end polish-page */
