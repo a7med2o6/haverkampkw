@@ -670,6 +670,10 @@ ul {
   background-color: #833ab4;
 }
 
+.footer .box .social .snapchat:hover {
+  background-color: #bec038;
+}
+
 .footer .box .text {
   line-height: 2;
   color: var(--text-color);
@@ -1770,3 +1774,84 @@ ul {
 }
 
 /* end polish-page */
+/* start terms-page */
+
+/* start items */
+.items .container ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: var(--main-color);
+  list-style-type: square;
+  margin: 25px;
+}
+
+.items .container ul li {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.items .container ul li span {
+  font-weight: bold;
+}
+
+.items .container ul li .red {
+  font-size: 24px;
+  color: red;
+  font-weight: normal;
+}
+
+/* end items */
+/* start instructions */
+.instructions .container dt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: var(--main-color);
+  text-decoration: underline;
+  margin: 25px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.instructions .container dl dd {
+  font-size: 24px;
+  margin: 8px;
+  color: var(--main-color);
+}
+
+.instructions .container dl dd span {
+  font-weight: bold;
+}
+
+.instructions .container dl dd .red {
+  color: red;
+  font-weight: normal;
+}
+
+/* end instructions */
+/* start warranty */
+.warranty .container .body,
+.warranty .container .tint {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: var(--main-color);
+  list-style-type: square;
+  margin: 25px;
+  font-size: 24px;
+}
+
+
+.warranty .container h2 {
+  color: var(--main-color);
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.warranty .container span {
+  color: red;
+}
+
+/* end  warranty */
+/* end terms-page */
