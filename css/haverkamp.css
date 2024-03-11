@@ -889,6 +889,9 @@ ul {
 }
 
 /* End Animation */
+
+
+
 /* start ppf-page */
 
 /* start landing */
@@ -904,13 +907,14 @@ ul {
   width: 100%;
 }
 
-.landing-prot .container .tint-text {
+.landing-prot .container .ppf-text {
   position: absolute;
+  width: 50%;
   border-radius: 8px;
   line-height: 1.5;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 75%;
+  transform: translate(-75%, -75%);
   font-size: 24px;
   font-weight: bold;
   color: var(--text-color);
@@ -919,11 +923,14 @@ ul {
 }
 
 @media (max-width: 768px) {
-  .landing-prot .container .tint-text {
-    width: 100%;
+  .landing-prot .container .ppf-text {
+    width: 75%;
     padding: 5px;
     text-align: center;
     position: absolute;
+    top: 83%;
+    left: 77%;
+    transform: translate(-70%, -70%);
     color: var(--text-color);
     text-shadow: none;
     font-size: 16px;
@@ -1774,7 +1781,12 @@ ul {
 }
 
 /* end polish-page */
+
+
+
 /* start terms-page */
+
+
 
 /* start items */
 .items .container ul {
@@ -1784,6 +1796,7 @@ ul {
   color: var(--main-color);
   list-style-type: square;
   margin: 25px;
+  line-height: 1.8;
 }
 
 .items .container ul li {
@@ -1812,12 +1825,14 @@ ul {
   margin: 25px;
   font-weight: bold;
   font-size: 24px;
+  line-height: 1.8;
 }
 
 .instructions .container dl dd {
   font-size: 24px;
   margin: 8px;
   color: var(--main-color);
+  line-height: 1.8;
 }
 
 .instructions .container dl dd span {
@@ -1840,6 +1855,7 @@ ul {
   list-style-type: square;
   margin: 25px;
   font-size: 24px;
+  line-height: 1.8;
 }
 
 
