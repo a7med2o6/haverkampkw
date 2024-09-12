@@ -930,7 +930,8 @@ ul {
   width: 100%;
 }
 
-.landing-prot .container .ppf-text {
+.landing-prot .container .ppf-text,
+.landing-polish .container .polish-text {
   position: absolute;
   width: 50%;
   border-radius: 8px;
@@ -946,7 +947,8 @@ ul {
 }
 
 @media (max-width: 768px) {
-  .landing-prot .container .ppf-text {
+  .landing-prot .container .ppf-text,
+  .landing-polish .container .polish-text {
     width: 75%;
     padding: 5px;
     text-align: center;
@@ -1339,26 +1341,6 @@ ul {
 .features .box .img-holder {
   position: relative;
   overflow: hidden;
-}
-
-.features .box .img-holder::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -1px;
-  width: 100%;
-  height: 100%;
-}
-
-.features .box .img-holder::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-style: solid;
-  border-width: 0px 0px 170px 500px;
-  border-color: transparent transparent white transparent;
-  transition: var(--main-transition);
 }
 
 .features .box .img-holder img {
