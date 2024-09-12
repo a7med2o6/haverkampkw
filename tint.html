@@ -204,37 +204,42 @@
     <div class="main-heading">
       <h2 class="main-title">معرض الصور</h2>
     </div>
-    <div class="container">
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-1.jpg" alt="" />
+    <div class="carosel">
+      <div class=" list">
+        <div class="item">
+          <img src="./images/tint/tint-gal-1.jpg" alt="image1">
+        </div>
+        <div class="item">
+          <img src="./images/tint/tint-gal-2.jpg" alt="image2">
+        </div>
+        <div class="item">
+          <img src="./images/tint/tint-gal-3.jpg" alt="image3">
+        </div>
+        <div class="item">
+          <img src="./images/tint/tint-gal-4.jpg" alt="image4">
+        </div>
+        <div class="item">
+          <img src="./images/tint/tint-gal-5.jpg" alt="image5">
+        </div>
+        <div class="item">
+          <img src="./images/tint/tint-gal-6.jpg" alt="image6">
         </div>
       </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-2.jpg" alt="" />
-        </div>
+      <!--button prev and next-->
+      <div class="buttons">
+        <button id="prev">
+          &lt; </button>
+        <button id="next">></button>
       </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-3.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-4.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-5.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/tint/tint-gal-6.jpg" alt="" />
-        </div>
-      </div>
+      <!--Dots (if 6 items => 6 dots)-->
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   </div>
   <!-- End Gallery -->
@@ -243,8 +248,8 @@
     <h2 class="main-title">اراء العملاء</h2>
     <div class="container">
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>مشعل المطيري</h3>
+        <img src="./images/male-1.png" alt="avatar-1" />
+        <h3>عمر السعدون</h3>
         <span class="title">تويوتا لاندكروزر</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -253,13 +258,11 @@
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
         </div>
-        <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
-        </p>
+        <p>مشكورين الاخ بيتر ومبارك خدمة ممتازة و سعر يستحق الخدمة المقدمة</p>
       </div>
       <div class="box">
-        <img src="./images/avatar-2.png" alt="avatar-1" />
-        <h3>اسم سيدة</h3>
+        <img src="./images/female-1.png" alt="avatar-1" />
+        <h3>لطيقة الياسين</h3>
         <span class="title">رانج روفر</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -268,13 +271,11 @@
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
         </div>
-        <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
-        </p>
+        <p>صراحة اول مرة اجرب شغلكم وباذن الله راح اقترح اسم محلكم لاهلنا</p>
       </div>
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>مبارك العنزي</h3>
+        <img src="./images/male-2.png" alt="avatar-1" />
+        <h3>خالد الفيلكاوي</h3>
         <span class="title">بي ام دابليو</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -283,13 +284,11 @@
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
         </div>
-        <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
-        </p>
+        <p>يعطيكم العافية شغل مميز والله يبارك لكم فى حلالكم</p>
       </div>
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>بندر الشمري</h3>
+        <img src="./images/male-1.png" alt="avatar-1" />
+        <h3>ابراهيم القحطاني</h3>
         <span class="title">لكزيس</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -299,12 +298,13 @@
           <i class="filled fas fa-star"></i>
         </div>
         <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
+          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب مو اول سيارة
+          اعملها عندكم باذن الله اصير زبون دائم
         </p>
       </div>
       <div class="box">
-        <img src="./images/avatar-2.png" alt="avatar-1" />
-        <h3>اسم سيدة</h3>
+        <img src="./images/female-2.png" alt="avatar-1" />
+        <h3>مريم الانبعي</h3>
         <span class="title">جيلى مانجارو</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -313,14 +313,12 @@
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
         </div>
-        <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
-        </p>
+        <p>الحلو ان المحل كبير وفية استراحة منفصلة للعوائل</p>
       </div>
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>سالم الشيخ</h3>
-        <span class="title">شفرولية كابتيفا</span>
+        <img src="./images/male-2.png" alt="avatar-1" />
+        <h3>اسامة العميري</h3>
+        <span class="title">دودج رام تي ار اكس</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
@@ -329,13 +327,14 @@
           <i class="filled fas fa-star"></i>
         </div>
         <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
+          قسم الاكسسوارات ممتاز واشتريت شاحن التليفون و دقمة حزام الامان
+          واشتراك للسيارة
         </p>
       </div>
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>احمد نوفل</h3>
-        <span class="title">فولكس فاجون</span>
+        <img src="./images/male-1.png" alt="avatar-1" />
+        <h3>ناصر المطيري</h3>
+        <span class="title">جينيسيس</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
@@ -343,13 +342,11 @@
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
         </div>
-        <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
-        </p>
+        <p>يا ليت لو تفتحتون فرع فى المنطقة العاشرة</p>
       </div>
       <div class="box">
-        <img src="./images/avatar-2.png" alt="avatar-1" />
-        <h3>اسم سيدة</h3>
+        <img src="./images/female-3.png" alt="avatar-1" />
+        <h3>مني الدويسان</h3>
         <span class="title">ديفندر</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
@@ -359,13 +356,14 @@
           <i class="filled fas fa-star"></i>
         </div>
         <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
+          يعطيكم العافية شغل ممتاز <br />استقبال وتعامل راقي الله يباركلك فى
+          حلالكم
         </p>
       </div>
       <div class="box">
-        <img src="./images/avatar-1.png" alt="avatar-1" />
-        <h3>بيتر ناجي</h3>
-        <span class="title">شيري</span>
+        <img src="./images/male-2.png" alt="avatar-1" />
+        <h3>فهد السهلي</h3>
+        <span class="title">مرسيدس</span>
         <div class="rate">
           <i class="filled fas fa-star"></i>
           <i class="filled fas fa-star"></i>
@@ -374,7 +372,8 @@
           <i class="filled fas fa-star"></i>
         </div>
         <p>
-          شكرا على حسن التعامل والاستقبال الطيب المكان حيل مرتب وشغل جيد جدا
+          سويت حماية مطفية لسياراتي شغل ممتاز واسعار جيدة بالنسبة لباقى
+          الشركات مشكورين على التعامل الراقي وحسن الاستقبال
         </p>
       </div>
     </div>
@@ -461,6 +460,7 @@
   </div>
   <!-- End Footer -->
   <script src="./js/tint.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

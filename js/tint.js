@@ -555,7 +555,7 @@
         this.labCredit.appendChild(this.labLogo);
         this.projectName = document.createElement("span");
         this.projectName.className = "juxtapose-name";
-        setText(this.projectName, "JuxtaposeJS");
+        setText(this.projectName, "");
         this.labCredit.appendChild(this.projectName);
 
         this.slider.appendChild(this.handle);

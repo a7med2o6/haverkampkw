@@ -140,40 +140,46 @@
     <div class="main-heading">
       <h2 class="main-title">معرض الصور</h2>
     </div>
-    <div class="container">
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
+    <div class="carosel">
+      <div class=" list">
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-1.png" alt="image1">
+        </div>
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-2.png" alt="image2">
+        </div>
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-3.png" alt="image3">
+        </div>
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-4.png" alt="image4">
+        </div>
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-5.png" alt="image5">
+        </div>
+        <div class="item">
+          <img src="../images/ppf/ppf-gal-6.png" alt="image5">
         </div>
       </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
-        </div>
+      <!--button prev and next-->
+      <div class="buttons">
+        <button id="prev">
+          &lt; </button>
+        <button id="next">></button>
       </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/mega-menu.jpg" alt="" />
-        </div>
-      </div>
+      <!--Dots (if 6 items => 6 dots)-->
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   </div>
   <!-- End Gallery -->
+  <!-- Start Testimonials -->
   <!-- Start Testimonials -->
   <div class="testimonials" id="testimonials">
     <h2 class="main-title">اراء العملاء</h2>
@@ -234,7 +240,7 @@
         </p>
       </div>
       <div class="box">
-        <img src="./images/female-2.png" alt="avatar-1" />
+        <img src="./images/female-1.png" alt="avatar-1" />
         <h3>مريم الانبعي</h3>
         <span class="title">جيلى مانجارو</span>
         <div class="rate">
@@ -276,7 +282,7 @@
         <p>يا ليت لو تفتحتون فرع فى المنطقة العاشرة</p>
       </div>
       <div class="box">
-        <img src="./images/female-3.png" alt="avatar-1" />
+        <img src="./images/female-1.png" alt="avatar-1" />
         <h3>مني الدويسان</h3>
         <span class="title">ديفندر</span>
         <div class="rate">
@@ -392,6 +398,7 @@
   </div>
   <!-- End Footer -->
   <script src="./js/main.js"></script>
+  <script src="./js/tint.js"></script>
 </body>
 
 </html>
