@@ -547,7 +547,10 @@
         this.leftImage.appendChild(this.imgBefore.image);
 
         this.labCredit = document.createElement("a");
-        this.labCredit.setAttribute("href", "http://juxtapose.knightlab.com");
+        this.labCredit.setAttribute(
+          "href",
+          "https://www.instagram.com/haverkampkw/"
+        );
         this.labCredit.setAttribute("target", "_blank");
         this.labCredit.className = "jx-knightlab";
         this.labLogo = document.createElement("div");
@@ -555,7 +558,7 @@
         this.labCredit.appendChild(this.labLogo);
         this.projectName = document.createElement("span");
         this.projectName.className = "juxtapose-name";
-        setText(this.projectName, "");
+        setText(this.projectName, "   هافركامب");
         this.labCredit.appendChild(this.projectName);
 
         this.slider.appendChild(this.handle);

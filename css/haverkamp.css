@@ -1944,13 +1944,11 @@ a.jx-knightlab {
 
 a.jx-knightlab div.knightlab-logo {
   display: inline-block;
+  background-image: url(../images/favicon.svg);
   vertical-align: middle;
-  height: 8px;
-  width: 8px;
-  background-color: #c34528;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  height: 16px;
+  width: 16px;
+
   top: -1.25px;
   position: relative;
   cursor: pointer;
@@ -1961,7 +1959,7 @@ a.jx-knightlab:hover {
   background-color: rgba(0, 0, 0, 0.35);
 }
 a.jx-knightlab:hover div.knightlab-logo {
-  background-color: #ce4d28;
+  background-color: var(--main-color);
 }
 
 a.jx-knightlab span.juxtapose-name {
